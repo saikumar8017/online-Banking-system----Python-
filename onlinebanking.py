@@ -7,19 +7,19 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.balance += amount
-            print(f"✅ {amount} deposited successfully.")
+            print(f"{amount} deposited successfully.")
         else:
-            print("❌ Deposit amount must be positive.")
+            print("Deposit amount must be positive.")
 
     def withdraw(self, amount):
         if 0 < amount <= self.balance:
             self.balance -= amount
-            print(f"✅ {amount} withdrawn successfully.")
+            print(f" {amount} withdrawn successfully.")
         else:
-            print("❌ Insufficient balance or invalid amount.")
+            print("Insufficient balance or invalid amount.")
 
     def get_balance(self):
-        print(f"💰 Current Balance: {self.balance}")
+        print(f" Current Balance: {self.balance}")
 
 
 # --- Menu-driven program ---
@@ -46,11 +46,11 @@ def main():
             account.get_balance()
 
         elif choice == "4":
-            print("✅ Thank you for using our banking system.")
+            print("Thank you for using our banking system.")
             break
 
         else:
-            print("❌ Invalid choice. Please try again.")
+            print("Invalid choice. Please try again.")
 
 
 if __name__ == "__main__":
