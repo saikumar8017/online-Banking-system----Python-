@@ -13,7 +13,7 @@ It allows users to perform basic banking operations such as:
 
  Menu-driven interface
 
-📌 Features
+ Features
 
 Object-Oriented Programming (OOP) approach using Python classes
 
@@ -25,7 +25,7 @@ User-friendly menu-driven console interface
 
 Extendable for future features (like transfers, interest calculation, transaction history, etc.)
 
-🛠 Tech Stack
+ Tech Stack
 
 Language: Python 3
 
